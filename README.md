@@ -6,8 +6,6 @@
 
 本项目是个人开发并使用的本地 SSH 管理桌面应用，项目内技术栈基于 Electron + Vue 3 + TypeScript 构建。借助了传统 SSH 管理桌面应用的安排布局，添加了更多现代化的功能，**该项目使用DeepSeek V4 Pro大模型协同开发**
 
----
-
 <div align = "center">
 
 <img title="" alt="OFteenSSH-LOGO" src="./build/icon.png" width="200">
