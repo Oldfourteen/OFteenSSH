@@ -1,0 +1,30 @@
+appId: com.ofteen.ssh
+productName: OFteenSSH
+copyright: Copyright © 2026 OFteenSSH
+directories:
+  output: dist
+  buildResources: build
+files:
+  - out/**/**
+  - package.json
+icon: build/icon.png
+win:
+  target:
+    - nsis
+    - portable
+  artifactName: ${productName}-${version}-win-${arch}.${ext}
+mac:
+  target:
+    - dmg
+    - zip
+  artifactName: ${productName}-${version}-mac-${arch}.${ext}
+linux:
+  target:
+    - AppImage
+    - deb
+  artifactName: ${productName}-${version}-linux-${arch}.${ext}
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: always
+  createStartMenuShortcut: true

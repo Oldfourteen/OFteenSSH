@@ -1,0 +1,41 @@
+{
+  "name": "ofteen-ssh",
+  "version": "1.0.0",
+  "description": "OFteenSSH - 本地 SSH 管理工具",
+  "main": "./out/main/index.js",
+  "author": "OFteenSSH",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "build:unpack": "npm run build && electron-builder --dir",
+    "build:win": "npm run build && electron-builder --win",
+    "build:mac": "npm run build && electron-builder --mac",
+    "build:linux": "npm run build && electron-builder --linux",
+    "preview": "electron-vite preview"
+  },
+  "dependencies": {
+    "@electron-toolkit/preload": "^3.0.1",
+    "@electron-toolkit/utils": "^3.0.0",
+    "@xterm/addon-fit": "^0.10.0",
+    "@xterm/addon-web-links": "^0.11.0",
+    "@xterm/addon-webgl": "^0.18.0",
+    "@xterm/xterm": "^5.5.0",
+    "echarts": "^5.5.1",
+    "electron-log": "^5.2.2",
+    "electron-store": "^8.2.0",
+    "pinia": "^2.2.4",
+    "ssh2": "^1.15.0",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "@electron-toolkit/tsconfig": "^1.0.1",
+    "@types/ssh2": "^1.15.1",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8",
+    "electron-vite": "^2.3.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
