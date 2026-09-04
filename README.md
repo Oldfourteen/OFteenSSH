@@ -2,15 +2,6 @@
 
 <div align="center">
 
-![Electron](https://img.shields.io/badge/Electron-33-47848F?logo=electron&logoColor=white)
-![Vue](https://img.shields.io/badge/Vue-3.5-42B883?logo=vuedotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6?logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)
-![Pinia](https://img.shields.io/badge/Pinia-2.2-FFD859?logo=pinia&logoColor=black)
-![SSH2](https://img.shields.io/badge/ssh2-1.15-0F0F0F)
-![xterm.js](https://img.shields.io/badge/xterm.js-5.5-2F81F7)
-![License](https://img.shields.io/badge/License-MIT-32CD32)
-
 </div>
 
 本项目是个人开发并使用的本地 SSH 管理桌面应用，项目内技术栈基于 Electron + Vue 3 + TypeScript 构建。借助了传统 SSH 管理桌面应用的安排布局，添加了更多现代化的功能，**该项目使用DeepSeek V4 Pro大模型协同开发**
@@ -20,6 +11,17 @@
 <div align = "center">
 
 <img title="" alt="OFteenSSH-LOGO" src="./build/icon.png" width="200">
+
+---
+
+![Electron](https://img.shields.io/badge/Electron-33-47848F?logo=electron&logoColor=white)
+![Vue](https://img.shields.io/badge/Vue-3.5-42B883?logo=vuedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6?logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)
+![Pinia](https://img.shields.io/badge/Pinia-2.2-FFD859?logo=pinia&logoColor=black)
+![SSH2](https://img.shields.io/badge/ssh2-1.15-0F0F0F)
+![xterm.js](https://img.shields.io/badge/xterm.js-5.5-2F81F7)
+![License](https://img.shields.io/badge/License-MIT-32CD32)
 
 </div>
 
